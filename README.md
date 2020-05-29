@@ -1,6 +1,8 @@
 # SAS
 GTA: San Andreas Splitmode for SA:MP
 
+Server is currently running at `leaty.net:7777`, as a throwback for some good old lagshot fighting.
+
 ## Contributors
 I did my best to fill in here, but it is very likely I missed something.
 
