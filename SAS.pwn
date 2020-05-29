@@ -131,80 +131,80 @@ main()
 //===================================================================//
 
 //------ Data ------
-#include Data\defines.pwn
-#include Data\worlds.pwn
-#include Data\dialogs.pwn
-#include Data\enums.pwn
-#include Data\forwards.pwn
-#include Data\variables.pwn
-#include Data\menus.pwn
-#include Data\mapicons.pwn
-#include Data\functions.pwn
+#include Data/defines.pwn
+#include Data/worlds.pwn
+#include Data/dialogs.pwn
+#include Data/enums.pwn
+#include Data/forwards.pwn
+#include Data/variables.pwn
+#include Data/menus.pwn
+#include Data/mapicons.pwn
+#include Data/functions.pwn
 
 //---------Server Handlers-------
-#include Resources\Handlers\Server\Server.pwn
-#include Resources\Handlers\Server\Pickup.pwn
-#include Resources\Handlers\Server\Object.pwn
-#include Resources\Handlers\Server\Vehicle.pwn
-#include Resources\Handlers\Server\News.pwn
+#include Resources/Handlers/Server/Server.pwn
+#include Resources/Handlers/Server/Pickup.pwn
+#include Resources/Handlers/Server/Object.pwn
+#include Resources/Handlers/Server/Vehicle.pwn
+#include Resources/Handlers/Server/News.pwn
 
 //------- Elements ---------
-#include Elements\Player\playerCore.pwn //Player
-#include Elements\Admin\adminCore.pwn //Admin
-#include Elements\Gang\gangCore.pwn //Gang
-#include Elements\IRC\ircCore.pwn //IRC
+#include Elements/Player/playerCore.pwn //Player
+#include Elements/Admin/adminCore.pwn //Admin
+#include Elements/Gang/gangCore.pwn //Gang
+#include Elements/IRC/ircCore.pwn //IRC
 
 //-------- Games/Minigames ---------
-#include Resources\Games\gameCore.pwn
+#include Resources/Games/gameCore.pwn
 
 
 //---------Player Handlers-------
-#include Resources\Handlers\Player\Nametag.pwn
-#include Resources\Handlers\Player\Marker.pwn
-#include Resources\Handlers\Player\Color.pwn
-#include Resources\Handlers\Player\Hardcore.pwn
-#include Resources\Handlers\Player\Godmode.pwn
-#include Resources\Handlers\Player\Spectate.pwn
-#include Resources\Handlers\Player\Jail.pwn
-#include Resources\Handlers\Player\Mute.pwn
-#include Resources\Handlers\Player\Hax.pwn
-#include Resources\Handlers\Player\Ramping.pwn
+#include Resources/Handlers/Player/Nametag.pwn
+#include Resources/Handlers/Player/Marker.pwn
+#include Resources/Handlers/Player/Color.pwn
+#include Resources/Handlers/Player/Hardcore.pwn
+#include Resources/Handlers/Player/Godmode.pwn
+#include Resources/Handlers/Player/Spectate.pwn
+#include Resources/Handlers/Player/Jail.pwn
+#include Resources/Handlers/Player/Mute.pwn
+#include Resources/Handlers/Player/Hax.pwn
+#include Resources/Handlers/Player/Ramping.pwn
 
 //------- Modes --------
-#include Elements\Training\trainingCore.pwn //Training
-#include Elements\Freeroam\freeroamCore.pwn //Freeroam
+#include Elements/Training/trainingCore.pwn //Training
+#include Elements/Freeroam/freeroamCore.pwn //Freeroam
 
 // Other
-#include Data\timers.pwn
+#include Data/timers.pwn
 
 //----- Callbacks -----
-#include Resources\Callbacks\Other\OnGameModeInit.pwn
-#include Resources\Callbacks\Other\OnGameModeExit.pwn
-#include Resources\Callbacks\Other\OnRconCommand.pwn
-#include Resources\Callbacks\Other\OnVehicle.pwn
-#include Resources\Callbacks\Other\OnDialogResponse.pwn
+#include Resources/Callbacks/Other/OnGameModeInit.pwn
+#include Resources/Callbacks/Other/OnGameModeExit.pwn
+#include Resources/Callbacks/Other/OnRconCommand.pwn
+#include Resources/Callbacks/Other/OnVehicle.pwn
+#include Resources/Callbacks/Other/OnDialogResponse.pwn
 
-#include Resources\Callbacks\OnPlayer\OnPlayerConnect.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerDisconnect.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerSpawn.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerDeath.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerStates.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerUpdate.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerCheckpoints.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerClickPlayer.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerInteriorChange.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerEnterVehicle.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerExitVehicle.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerExitedMenu.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerRequestClass.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerRequestSpawn.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerPickUpPickup.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerSelectedMenuRow.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerObjectMoved.pwn
-#include Resources\Callbacks\OnPlayer\OnPlayerText.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerConnect.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerDisconnect.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerSpawn.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerDeath.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerStates.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerUpdate.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerCheckpoints.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerClickPlayer.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerInteriorChange.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerEnterVehicle.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerExitVehicle.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerExitedMenu.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerRequestClass.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerRequestSpawn.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerPickUpPickup.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerSelectedMenuRow.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerObjectMoved.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerText.pwn
 
-#include Resources\Callbacks\OnPlayer\OnPlayerCommandText.pwn
+#include Resources/Callbacks/OnPlayer/OnPlayerCommandText.pwn
 
 //-- Engines
-#include Resources\Engines\MySQL.pwn
+#include Resources/Engines/MySQL.pwn
 

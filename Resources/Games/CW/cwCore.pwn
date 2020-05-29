@@ -317,9 +317,9 @@ CW__UpdateTag(playerid)
 #include cwFunctions.pwn
 #include cwDialogs.pwn
 #include cwCommands.pwn
-#include Commands\cwManagement.pwn
-#include Commands\cwAdmin.pwn
-#include Commands\cwPlayer.pwn
-#include Modes\CWTCW.pwn
-#include Modes\SDM.pwn
+#include Commands/cwManagement.pwn
+#include Commands/cwAdmin.pwn
+#include Commands/cwPlayer.pwn
+#include Modes/CWTCW.pwn
+#include Modes/SDM.pwn
 

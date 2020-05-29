@@ -167,11 +167,11 @@ Gang__OnText(playerid, const text[])
 #include gangFunctions.pwn
 #include gangDialogs.pwn
 #include gangCommands.pwn
-#include Commands\Admin\gangManagement.pwn
-#include Commands\Admin\gangAdmin.pwn
-#include Commands\Admin\gangMod.pwn
-#include Commands\Player\gangOwner.pwn
-#include Commands\Player\gangMember.pwn
-#include Commands\Player\gangNone.pwn
-#include Commands\Player\gangNeutral.pwn
+#include Commands/Admin/gangManagement.pwn
+#include Commands/Admin/gangAdmin.pwn
+#include Commands/Admin/gangMod.pwn
+#include Commands/Player/gangOwner.pwn
+#include Commands/Player/gangMember.pwn
+#include Commands/Player/gangNone.pwn
+#include Commands/Player/gangNeutral.pwn
 

@@ -309,8 +309,8 @@ Freeroam__Weather()
 
 #include freeroamCommands.pwn
 #include freeroamFunctions.pwn
-#include Handlers\Help.pwn
-#include Handlers\Bank.pwn
-#include Handlers\Property.pwn
-#include Handlers\Loot.pwn
+#include Handlers/Help.pwn
+#include Handlers/Bank.pwn
+#include Handlers/Property.pwn
+#include Handlers/Loot.pwn
 

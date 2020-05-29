@@ -139,5 +139,5 @@ sas_Dev(playerid, params[])
 	return 1;
 }
 
-#include Commands\cmdMy.pwn
+#include Commands/cmdMy.pwn
 

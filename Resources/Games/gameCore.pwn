@@ -231,6 +231,6 @@ Games::GetCWLocationList()
 
 
 
-#include CW\cwCore.pwn
-#include Mini\miniCore.pwn
+#include CW/cwCore.pwn
+#include Mini/miniCore.pwn
 

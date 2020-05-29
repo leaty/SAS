@@ -345,8 +345,8 @@ IRC__OnDeath(playerid, killerid, reason)
 
 #include ircFunctions.pwn
 #include ircCommands.pwn
-#include Commands\Admin\ircManagement.pwn
-#include Commands\Admin\ircAdmin.pwn
-#include Commands\Admin\ircMod.pwn
-#include Commands\Player\ircVip.pwn
-#include Commands\Player\ircNormal.pwn
+#include Commands/Admin/ircManagement.pwn
+#include Commands/Admin/ircAdmin.pwn
+#include Commands/Admin/ircMod.pwn
+#include Commands/Player/ircVip.pwn
+#include Commands/Player/ircNormal.pwn

@@ -89,9 +89,9 @@ Admin__OnText(playerid, const text[])
 }
 
 #include adminFunctions.pwn
-#include Commands\cmdManagement.pwn
-#include Commands\cmdAdmin.pwn
-#include Commands\cmdMod.pwn
-#include Commands\cmdP.pwn
-#include Commands\cmdS.pwn
+#include Commands/cmdManagement.pwn
+#include Commands/cmdAdmin.pwn
+#include Commands/cmdMod.pwn
+#include Commands/cmdP.pwn
+#include Commands/cmdS.pwn
 

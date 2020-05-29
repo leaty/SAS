@@ -224,7 +224,7 @@ Mini__OnReset()
 #include miniCommands.pwn
 #include miniFunctions.pwn
 #include miniObjects.pwn
-#include SDM\miniSDM.pwn
-#include SR\miniSR.pwn
+#include SDM/miniSDM.pwn
+#include SR/miniSR.pwn
 
 

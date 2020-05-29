@@ -218,4 +218,4 @@ Training__Weather()
 
 #include trainingCommands.pwn
 #include trainingFunctions.pwn
-#include Handlers\FC.pwn
+#include Handlers/FC.pwn
