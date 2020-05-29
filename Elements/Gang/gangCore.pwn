@@ -1,3 +1,28 @@
+/*****************************************************************************************************
+*
+* 	This file is part of the SAS San Andreas: Multiplayer gamemode source code.
+*
+*   While none of this source code is free nor available for purchase by this time,
+*   developers are permitted to take out small parts IF they have permission from the source code holder.
+*
+* 	In a nutshell; you are not allowed to copy more than a single method from our source-code for your own purposes.
+*   However, larger peices, components or handlers originating from our source, can be discussed.
+*   For any of the above actions, you MUST contact the source code holder.
+*
+*
+*	SAS has to be compiled with pawno.
+*  	The compiler itself is available on SVN.
+*
+*
+*   Information:
+*   Functionality:
+*   Original Author:
+*
+*
+*   @copyright (c) SAS 2010
+*
+******************************************************************************************************/
+
 //Note: File includes are at the end of the file
 
 #define MAX_GANGS               	50
