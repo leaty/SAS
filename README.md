@@ -3,7 +3,7 @@ GTA: San Andreas Splitmode for SA:MP
 
 Server is currently running at `leaty.net:7777`, as a throwback for some good old lagshot fighting.
 
-May have some indentation irregularities due to automated windows to unix conversion.
+The code may have some indentation artifacts due to automated windows to unix conversion.
 
 ## Build
 Can be built using https://github.com/pawn-lang/compiler v.3.10.10 on Linux.
